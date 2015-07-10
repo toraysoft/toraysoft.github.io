@@ -138,7 +138,7 @@ OOCSS（Object Oriented CSS）是一种css的编码规范，它提倡将视觉�
 上面第一种css将容器和元素的样式分离成两个class，这样更利于css的复用；而第二种css将html元素名引入了css，如果html结构稍微改变可能就不适用了。
 
 ### 1.3 Less——动态样式语言语言实现OOCSS
-Less为CSS赋予了动态语言的特性，如变量、继承、运算、函数。使用动态样式语言可以更好地实现OOCSS。（[中文参考资料](http://www.bootcss.com/p/lesscss/)、[英文官网](http://lesscss.org/)）
+Less为CSS赋予了动态语言的特性，如变量、继承、运算、函数。使用动态样式语言可以更好地实现OOCSS。（[中文参考资料](http://www.bootcss.com/p/lesscss/)、[官网](http://lesscss.org/)）
 
 **变量** 可以单独定义通用的样式，在代码中重复使用：
 
@@ -286,7 +286,7 @@ Less为CSS赋予了动态语言的特性，如变量、继承、运算、函数�
 ### 2、项目发布与优化
 
 ### 2.1、Grunt介绍
-Grunt是基于Node.js的项目构建工具，对于需要反复重复的任务，例如压缩、编译、单元测试、linting等，它可以自动化地完成，简化前端开发的工作。Grunt拥有众多插件，可以满足多种代码发布需求。（[官网](http://www.gruntjs.net/)）
+Grunt是基于Node.js的项目构建工具，对于需要反复重复的任务，例如压缩、编译、单元测试、linting等，它可以自动化地完成，简化前端开发的工作。Grunt拥有众多插件，可以满足多种代码发布需求。（[官网](http://www.gruntjs.net/)，[Grunt插件](https://github.com/gruntjs/grunt-contrib)）
 
 一个Grunt项目根目录下要包含`package.json`和`Gruntfile.js`。
     
